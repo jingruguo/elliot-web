@@ -1,0 +1,329 @@
+
+body{
+  margin: 0;
+  font-family: 'Open sans', sans-serif;
+  background-color: #CEC19B;
+  color: white;
+  min-width: 260px;
+}
+
+
+h1{
+  font-weight: 600;
+  color: #ffffff;
+}
+
+h2{
+  font-weight: 300;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+p{
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+/*larger than 40em*/
+@media only screen and (min-width: 670px){
+  .col-left{
+  width: 50%;
+  display: inline;
+  height: 100%;
+  float: left;
+  }
+
+  .col-right{
+  width: 50%;
+  height: 100%;
+  margin-bottom: 0;
+  }
+
+  .col-right img{
+    position:fixed;
+    bottom:0px;
+    float: right;
+    right:auto;
+    left: auto;
+    max-width: 400px;
+  }
+
+  .intro{
+    margin-top:30%;
+    text-align: left;
+  }
+
+  .container{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .intro p{
+    width: 80%;
+    float: left;
+    margin-bottom: 5%;
+   
+    padding-top: 10%;
+    display: block;
+  }
+
+  h1,h2{
+    display: inline;
+    float: left;
+    margin: 0 auto;
+  }
+
+
+
+  #icon{
+    display: inline;
+    float: left;
+    width: 85px;
+  }
+
+  .download{
+    float: left;
+    margin-bottom: 2%;
+  }
+
+
+h1{
+  font-size: 3.8em;
+  margin-left: 5%;
+  line-height: 0.8;
+  display: block;
+ 
+  padding-left: 3%;
+
+}
+h2{
+  font-size: 1.6em;
+  margin-left: 4%;
+  line-height: 2;
+  display: block;
+  padding-left: 4%;
+}
+
+p{
+  font-size: 1.1em;
+  margin:0 auto;
+  padding-top: 30%;
+  padding-bottom: 5%;
+  display: block;
+}
+
+
+.download{
+  display: block;
+  margin:0 auto;
+  margin-bottom: 4%;
+}
+
+  h1,h2{
+
+    float: left;
+    margin: 0 auto;
+  }
+
+  #icon{
+    display: inline;
+    float: left;
+    width:85px;
+  }
+
+  .slider{
+    display: block;
+    margin:0 auto;
+  }
+
+  .bottom{
+    position: absolute;
+    bottom:50px;
+  }
+
+  #download-btn{
+    display: block;
+  }
+
+}
+
+
+
+/*smaller than 670px*/
+@media only screen and (max-width: 670px){
+  .container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+.col-left, .col-right{
+  margin: 0 auto;
+}
+
+
+.intro{
+
+    margin: 0 auto;
+
+  }
+  
+
+.col-right img{
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 100%;
+}
+
+h1{
+  font-size: 4.5em;
+  margin-left: 5%;
+  line-height: 0.8;
+  display: block;
+  padding-left: 3%;
+
+  padding-right: 15%;
+
+}
+h2{
+  font-size: 1.8em;
+  margin-left: 4%;
+  line-height: 2;
+  display: block;
+  padding-left: 4%;
+}
+
+p{
+  font-size: 1.2em;
+  margin:0 auto;
+  padding-top: 28%;
+  padding-bottom: 5%;
+  display: block;
+  margin-bottom: 2%;
+  margin-top: 10%;
+}
+
+
+.download{
+  display: block;
+  margin:0 auto;
+  margin-bottom: 4%;
+
+}
+
+  h1,h2{
+
+    float: left;
+    margin: 0 auto;
+  }
+
+  #icon{
+    display: inline;
+    float: left;
+    width:100px;
+  }
+
+   .slides{
+    position: absolute;
+    padding-top: 4%;
+
+
+  }
+
+  .bottom{
+    /*position: absolute;
+    margin-left:25%;*/
+     padding-top: 15%;
+  }
+
+  #download-btn{
+    display: block;
+  }
+
+
+
+  #caption{
+    position: absolute;
+  }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 490px){
+  h1{
+  font-size: 3em;
+  margin-left: 3%;
+  line-height: 0.8;
+  padding-left: 0;
+ padding-right: 20%;
+
+
+}
+h2{
+  font-size: 1.2em;
+  margin-left: 4%;
+  line-height: 2;
+  padding-left: 0;
+
+}
+
+p{
+  font-size: 1em;
+  padding-top: 30%;
+  padding-bottom: 5%;
+  display: block;
+}
+
+  #icon{
+    display: inline;
+    float: left;
+    width:65px;
+  }
+
+  .bottom{
+    /*position: absolute;
+    margin-left:25%;*/
+     padding-top: 18%;
+  }
+
+  #download-btn{
+    display: block;
+  }
+
+  .slides{
+    position: absolute;
+    padding-top: 10%;
+
+  }
+
+  #caption{
+    position: absolute;
+  }
+
+}
+
+@media only screen and (max-width: 350px){
+   .bottom{
+    /*position: absolute;
+    margin-left:25%;*/
+     padding-top: 35%;
+  }
+
+}
+
+

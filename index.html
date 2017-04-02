@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="al:ios:url" content="applinks://elliot" />
+        <meta property="al:ios:app_store_id" content="1198050572" />
+        <meta property="al:ios:app_name" content="Elliot" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Elliot</title>
+
+
+    <!-- Bootstrap -->
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!--animation-->
+    <link rel="stylesheet" href="css/animsition.min.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script
+  src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <style type="text/css">
+      .download{
+
+          width: 178px;
+          height: 53px;
+          display: block;
+          background-image: url("img/applestore.svg");
+
+          background-size: 100% 100%;
+          background-repeat:no-repeat;
+          }
+
+      .download:hover{
+  
+        background-image: url('img/applestore_hover.svg');
+      }
+
+    </style>
+
+    <script src="js/animsition.min.js"></script>
+   
+    <script>
+        $(document).ready(function() {
+            $('.animsition').animsition();
+        });
+    </script>
+
+   
+
+    
+    
+  </head>
+
+  <body>
+  <div class="container animsition">
+    <div class="col-left">
+        
+            <div class="intro">
+                <img src="img/elliot_icon.png" id="icon">
+               <!--  <div class="title"> -->
+                 <h1>Elliot</h1> 
+                 <h2>Meet with  friends</h2>
+
+            <!--     </div> -->
+              
+
+                <p>
+                    Elliot is the new virtual assistant app to meet with friends, using your calendar and location to make suggestions. Grabbing lunch, getting coffee, or setting up a phone call is seamless — no pressure, no back-and-forth, no awkwardness.
+
+                    </br></br>
+
+                    <span id="caption">
+                    Let Elliot know which suggestions you like and it will automatically schedule events once both people confirm. 
+                    </span>
+                </p>
+            
+
+                <div class="bottom" ">
+                  
+                  <div class="slider ">
+                    <div class="slider-dot" id="dot1"></div>
+                    <div class="slider-dot" id="dot2"></div>
+                    <div class="slider-dot" id="dot3"></div>
+                  </div>
+
+                  <a href="https://itunes.apple.com/us/app/elliot-meet-with-friends/id1198050572?mt=8" id="download-btn">
+                  <div class="download" ></div></a>
+
+                  
+                </div>
+
+            </div>
+    </div>
+   
+    <div class="col-right slides" >
+   
+          <img src="img/elliot1.png" id = 'img1' class="active" alt="Elliot Home Screen">
+          <img src="img/elliot2.png" id = 'img2' alt="Elliot Enter Available Time">
+          <img src="img/elliot3.png" id = 'img3' alt="Elliot Scheduled Meetings">
+   
+        
+    </div>
+
+  </div>
+      
+  </body>
+</html>
